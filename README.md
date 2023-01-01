@@ -3,7 +3,7 @@
 I bought myself the [PICO-8](https://www.lexaloffle.com/pico-8.php) software for Christmas in 2022.
 
 
-## Paddle
+## SUPER PADDLE
 
 ![](paddle/paddle.p8.png)
 
