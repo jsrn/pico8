@@ -4,8 +4,6 @@ __lua__
 -- super paddle
 -- by jsrn
 
---reload(0x6000,0,8192,"padlabel.p8"); repeat until btn()!=0
-
 --paddle
 padx=52
 pady=122
@@ -107,7 +105,7 @@ function _draw()
  rectfill(0,0,128,128,12)
  
  if gameover then
-  print('game over!', 32, 60, 2)
+  hcp('game over!',2)
   return
  end
 
@@ -141,6 +139,14 @@ function updateheart()
 end
 
   
+-->8
+--util
+
+-- s: string
+-- c: colour
+function hcp(s,c)
+ print(s,64-#s*2,61,c)
+end
 __gfx__
 000000000000000a0000000a000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 00000000088088000880880000000000088088000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
